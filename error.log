@@ -19,3 +19,5 @@
   code: 'EAUTH',
   command: 'API'
 }
+[2022-02-05T13:39:15.879] [WARN] error - User Not Found with email brian.schh
+[2022-02-05T13:39:15.880] [WARN] error - message User Not found.

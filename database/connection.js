@@ -1,7 +1,8 @@
 require("dotenv").config();
 // const config = require('../config')
 const mongoose = require("mongoose");
-const url = process.env.MONGO_DB; //config.MONGO_DB
+const url =
+  "mongodb://localhost:27017/comercio?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false"; //config.MONGO_DB
 require("../loggers/log4js");
 const log4js = require("log4js");
 

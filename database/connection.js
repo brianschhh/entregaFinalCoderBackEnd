@@ -1,7 +1,8 @@
 require("dotenv").config();
 // const config = require('../config')
 const mongoose = require("mongoose");
-const url = process.env.MONGO_DB; //config.MONGO_DB
+const url =
+  "mongodb+srv://brian:schmidt@cluster0.lqgfi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"; //config.MONGO_DB
 require("../loggers/log4js");
 const log4js = require("log4js");
 

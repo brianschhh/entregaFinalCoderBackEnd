@@ -207,3 +207,50 @@
     logicalSessionTimeoutMinutes: undefined
   }
 }
+[2022-02-10T15:14:08.594] [ERROR] error - error en el servidor: Error: listen EACCES: permission denied https://proyectofinalcoderb.herokuapp.com/
+    at Server.setupListenHandle [as _listen2] (net.js:1303:21)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1465:5)
+    at Function.listen (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\server.js:70:20)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12) {
+  code: 'EACCES',
+  errno: -4092,
+  syscall: 'listen',
+  address: 'https://proyectofinalcoderb.herokuapp.com/',
+  port: -1
+}
+[2022-02-10T15:14:09.790] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (events.js:519:28)
+    at SMTPConnection.emit (events.js:400:28)
+    at SMTPConnection._actionEHLO (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2022-02-10T16:29:30.246] [WARN] error - User Not Found with email brian.schh@gmail.com
+[2022-02-10T16:29:30.247] [WARN] error - message User Not found.
+[2022-02-10T16:29:51.369] [ERROR] error - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection.login (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:438:38)
+    at C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-transport\index.js:271:32
+    at SMTPConnection.<anonymous> (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:209:17)
+    at Object.onceWrapper (events.js:519:28)
+    at SMTPConnection.emit (events.js:400:28)
+    at SMTPConnection._actionEHLO (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:1319:14)
+    at SMTPConnection._processResponse (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\Brian Schmidt\Desktop\entregafinalcoderBack\node_modules\nodemailer\lib\smtp-connection\index.js:189:44) {
+  code: 'EAUTH',
+  command: 'API'
+}

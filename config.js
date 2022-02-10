@@ -8,8 +8,8 @@ dotenv.config({
 module.exports = {
   PORT: process.env.PORT || "8080",
   NODE_ENV: process.env.NODE_ENV || "development",
-  MONGO_DB: process.env.MONGO_DB || "mongodb://localhost:27017/comercio",
   SECRET: process.env.SECRET || "secret",
   JWT_SECRET: process.env.JWT_SECRET || "JWT-secret",
   GMAIL_USER: process.env.GMAIL_USER || "brian.sch@gmail.com",
+  MONGO_DB: process.env.MONGO_DB || "mongodb://localhost:27017/comercio",
 };

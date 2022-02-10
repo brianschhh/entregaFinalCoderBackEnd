@@ -1,8 +1,7 @@
 require("dotenv").config();
 // const config = require('../config')
 const mongoose = require("mongoose");
-const url =
-  "mongodb+srv://brian:d8ihRpi8J4jlMCZ2@cluster0.lqgfi.mongodb.net/test?authSource=admin&replicaSet=atlas-hrwqq3-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true"; //config.MONGO_DB
+const url = process.env.MONGO_DB; //config.MONGO_DB
 require("../loggers/log4js");
 const log4js = require("log4js");
 
